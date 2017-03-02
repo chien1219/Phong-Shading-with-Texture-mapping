@@ -1,0 +1,18 @@
+﻿Build started 2016/12/9 下午 12:09:18.
+     1>Project "C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\Examples\GeometryShader\GrometryShader.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GeometryShader.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\cggm\desktop\glsl_gpu\glsl_gpu\examples\geometryshader\main.cpp(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\Debug\VertexNormalVisualizer.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\lib glut32.lib glew32.lib FreeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\Debug\VertexNormalVisualizer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\Debug\VertexNormalVisualizer.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\Debug\SharedCode.lib
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         GrometryShader.vcxproj -> C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\Debug\VertexNormalVisualizer.exe
+     1>Done Building Project "C:\Users\cggm\Desktop\GLSL_GPU\GLSL_GPU\Examples\GeometryShader\GrometryShader.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.39
